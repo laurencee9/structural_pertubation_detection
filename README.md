@@ -9,13 +9,21 @@ Official torch geometric code for the paper *Detecting structural perturbations 
 
 You can install the package using:
 ```
-pip install pyspdetection
+python setup.py install
 ```
-Make sure your python env fulfill all the requirements from `requirements.txt`.
+Make sure your python env fulfills all the requirements from `requirements.txt`. 
+
+Tested with packages
+```
+python==3.8
+torch==1.7.1
+torch_geometric==1.6.3
+networkx==2.5
+```
 
 ## Examples
 
-Check the [Notebooks](./notebooks) for complete examples of predictions.
+Check the [notebooks](./notebooks) for complete examples of predictions.
 
 ## Contributors
 
