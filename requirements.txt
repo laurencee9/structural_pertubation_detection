@@ -1,0 +1,7 @@
+numpy
+networkx==2.5
+scipy
+matplotlib
+torch==1.7.1
+netrd
+torch_geometric==1.6.3
